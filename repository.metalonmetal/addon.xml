@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.metalonmetal" name="Repository Metal on Metal" version="1.0.0" provider-name="Sergi">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Repository Metal on Metal">
+            <info compressed="false">https://raw.githubusercontent.com/kodimetalbox/repo5/_repository.metalonmetal/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodimetalbox/repo5/_repository.metalonmetal/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kodimetalbox/repo5/_repository.metalonmetal/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Heavy Metal Addons</summary>
+            <description>Heavy Metal Addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>

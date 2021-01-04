@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.MetalOnMetal" name="[COLOR red]Metal on Metal[/COLOR]"	version="0.0.6"	provider-name="Sergi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Metal on Metal</summary>
+    <description lang="en">Metal Concerts and Videos from YouTube. Thanks to Anabel and Titan from "Aprendiendo Kodi" group Telegram. You need YouTube Addon and setup your API KEY on the Youtbe Addon. If you want collaborate, join to the "Metal on Metal Kodi Addon" Telegram Goup.</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+    <addon id="repository.metalonmetal" name="Repository Metal on Metal" version="1.0.0" provider-name="Sergi">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Repository Metal on Metal">
+            <info compressed="false">https://raw.githubusercontent.com/kodimetalbox/repo5/_repository.metalonmetal/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodimetalbox/repo5/_repository.metalonmetal/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kodimetalbox/repo5/_repository.metalonmetal/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Heavy Metal Addons</summary>
+            <description>Heavy Metal Addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
